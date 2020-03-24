@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'webmagazine';
+    src:    url('./fonts/webmagazine.eot?cntwox');
+    src:    url('./fonts/webmagazine.eot?cntwox#iefix') format('embedded-opentype'),
+        url('./fonts/webmagazine.ttf?cntwox') format('truetype'),
+        url('./fonts/webmagazine.woff?cntwox') format('woff'),
+        url('./fonts/webmagazine.svg?cntwox#webmagazine') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'webmagazine' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-camera:before {
+    content: "\e900";
+    font-size: 2em;
+}
+.icon-plus:before {
+    content: "\e907";
+    font-size: 1.5em;
+    margin-right: 0.1em;
+    position: relative;
+    top: 0.2em
+}
+.icon-sad:before {
+    content: "\e908";
+}
+.icon-profile:before {
+    content: "\e905";
+    font-size: 2em;
+}
+.icon-collapse:before {
+    content: "\e902";
+    // color: #ffffff;
+    // font-size: 1.5em
+}
+.icon-star:before {
+    content: "\e906";
+    font-size: 1.5em;
+    color: #FF9933;
+}
+.icon-chevron-thin-right:before {
+    content: "\e903";
+}
+.icon-home3:before {
+    content: "\e904";
+    font-size: 2em;
+}
+.icon-search:before {
+    content: "\e901";
+}
